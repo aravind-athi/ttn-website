@@ -1,0 +1,29 @@
+.logo_name_container{
+    width: 15vw;
+    height: fit-content;
+    color: rgb(8, 92, 26);
+    box-sizing: border-box;
+    padding: 1%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+}
+
+.logo_container{
+    width: 20%;
+    height: 100%;
+}
+
+.logo_container > img {
+    width: 100%;
+}
+
+.brand_name{
+    width: 60%;
+    height: 100%;
+    font-size: 1vw;
+    text-align: left;
+}
+
