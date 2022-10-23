@@ -24,8 +24,9 @@ let domain_question_options = [
 ];
 
 const OurServices = () => {
-  let [response, setResponse] = useState([0, 0]);
-  let [current, setCurrent] = useState(1);
+  // let [response, setResponse] = useState([0, 0]);
+  const setResponse = () => {};
+  const [current, setCurrent] = useState(1);
 
   return (
     <PageWrapper>

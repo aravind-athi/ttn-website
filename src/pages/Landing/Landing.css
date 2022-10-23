@@ -1,13 +1,16 @@
 .landing-background {
-  background-image: -webkit-linear-gradient(150deg, #febd59 35%, #fdebcf 35%);
-  height: 90vh;
-  width: 95.5vw;
-  margin: 5vh 2vw;
+  /* background-image: -webkit-linear-gradient(150deg, #febd59 35%, #fdebcf 35%); */
+  background-image: url("/public/assets/landing-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 99vh;
+  width: 99vw;
+  padding: 5vh 2vw;
 }
 
-.round-div {
+/* .round-div {
   height: 65vh;
   width: 30vw;
   border-radius: 20vw;
   background-color: #fff;
-}
+} */

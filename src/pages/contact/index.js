@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="contact_container">
         <div className="contact_left">
           <div style={{ fontSize: "4vw" }}>Get To Know Us</div>
-          <img src="assets/contact.jpg" />
+          <img src="assets/contact.jpg" alt="contact" />
         </div>
         <div className="contact_right">
           <div className="contact_header">SHOOT IT !</div>
