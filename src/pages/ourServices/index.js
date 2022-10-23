@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PageWrapper from "../../wrappers/PageWrapper";
+import PageWrapper from "../../hoc/PageWrapper";
 import QuestionOne from "./components/QuestionOne";
 import QuestionTwo from "./components/QuestionTwo";
 import ServiceList from "./components/ServiceList";
@@ -47,11 +47,7 @@ const OurServices = () => {
             {...{ setCurrent, setResponse }}
           />
         )}
-        {current === 3 && (
-          <ServiceList
-            {...{ setCurrent, setResponse }}
-          />
-        )}
+        {current === 3 && <ServiceList {...{ setCurrent, setResponse }} />}
       </div>
     </PageWrapper>
   );

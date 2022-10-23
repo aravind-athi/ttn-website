@@ -1,10 +1,10 @@
 import React from "react";
-import "./NameLogo.css"
+import "./NameLogo.css";
 const NameLogo = () => {
   return (
     <div className="logo_name_container">
       <div className="logo_container">
-        <img src="assets/logo512.png" alt="logo" />
+        <img src="assets/logo-favicon.png" alt="logo" />
       </div>
       <div className="brand_name">THE TOOL NATION</div>
     </div>
