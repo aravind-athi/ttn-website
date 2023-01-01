@@ -1,0 +1,10 @@
+const express = require("express");
+const router = express.Router();
+
+var { test } = require("./controllers/test");
+var { sendQuery } = require("./controllers/queries");
+
+router.get("/test", test);
+router.post("/send-enquiry", sendQuery);
+
+module.exports = router;
